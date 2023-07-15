@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Instagram Post Form</title>
+
+	
+	<script src="{{ url_for('static', filename='./preview_func.js') }}" ></script> 
+	
+	<link rel="stylesheet" type="text/css" href="./static/styles.css">
+	
+</head>
+
+
+<body>
+
+	
+
+	<form id = "form1" method="post" action="http://localhost:5000/submit_form" enctype="multipart/form-data">
+
+		
+
+
+		<br>
+
+			<label for="caption">Caption:</label>
+			<textarea id="caption" name="caption"></textarea>
+
+		<br>
+
+
+			<label for="hashtag">Hashtag:</label>
+			<textarea id="hashtag" name="hashtag"></textarea>
+
+		<br>
+		
+
+		<div class="photo">
+
+			<label for="Photo">Choose Photo:</label>
+
+			<input type="file" id="pictures" name="pictures" multiple accept="image/* , video/* , .cr2 " onchange="handleFileSelect()"  >
+			
+			<div id="preview"></div>
+
+
+
+		</div>
+
+
+		<br>
+
+
+		<input type="submit" value="Submit">
+
+
+		
+	
+	</form>
+
+
+
+	
+
+
+	
+</body>
+</html>
