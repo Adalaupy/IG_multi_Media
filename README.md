@@ -3,6 +3,7 @@
 * [Step of using](#step-of-using)
 * [Installation](#installation)
 * [Room for Improvement](#room-for-improvementlimitation)
+* [remark](#remark)
 
 
 # General Information
@@ -31,3 +32,7 @@ pip install -r requirements.txt
 - no preview function for general post detail
 - preview function for media is not available for .cr2 format (but able to be processed)
 - simple layout design
+
+
+# Remark
+- default ratio of the photo are 4:3 / 3:4 (depends on the proportion of number for each orientation)
