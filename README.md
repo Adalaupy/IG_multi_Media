@@ -1,10 +1,10 @@
 ## Table of contents
-* [General info](#general-info)
+* [General Information](#general-information)
 * [Step of using](#step-of-using)
 * [Room for Improvement](#room-for-improvementlimitation)
 
 
-# General info
+# General Information
 Instagram allow users to upload multiple media at once for each post, however, the photos are automatically cropped if the aspect ratio of them are not consistent. To advoid cropping on Instagram, users have to make sure that all the media that they upload are in the union aspect ratio, or they may resize the photo by using some thrid-party app which take some times to do it.
 The main purpose of this project is to facilitate the resizing and uploading process. After login, user can choose the photos/video that they need to upload for the same post, this application will automatically resize the photos and video and post them without any cropping.
 
