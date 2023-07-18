@@ -1,6 +1,7 @@
 ## Table of contents
 * [General Information](#general-information)
 * [Step of using](#step-of-using)
+* [Installation](#installation)
 * [Room for Improvement](#room-for-improvementlimitation)
 
 
@@ -13,6 +14,13 @@ The main purpose of this project is to facilitate the resizing and uploading pro
 2. Input your post detail (include caption, hastag and media)
 3. Preview the media (before transformation) after photos/video selected
 4. Press "Submit" for resizing the media and posting
+
+
+# Installation
+```
+pip install -r requirements.txt
+```
+ 
 
 # Room for Improvement/Limitation
 - not able to handle some raw photo, e.g. heic format
