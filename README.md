@@ -35,4 +35,4 @@ pip install -r requirements.txt
 
 
 # Remark
-- default ratio of the photo are 4:3 / 3:4,depends on the proportion of number for each orientation, for example, if there are 10 photos in total which 3 of them are landscape and 7 of them are portrait, then the aspect ratio of all image will be resized as ratio 3:4
+- default ratio of the photo are 4:3 / 3:4, depends on the proportion of number for each orientation, for example, if there are 10 photos in total which 3 of them are landscape and 7 of them are portrait, the aspect ratio of all image will be resized as ratio 3:4
