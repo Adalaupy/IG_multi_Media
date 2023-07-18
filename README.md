@@ -1,7 +1,7 @@
 ## Table of contents
 * [General info](#general-info)
 * [Step of using](#step-of-using)
-* [Room for Improvement](#room-for-improvement/limitation)
+* [Room for Improvement](#room-for-improvementlimitation)
 
 
 # General info
