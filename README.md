@@ -10,10 +10,14 @@ Instagram allow users to upload multiple media at once for each post, however, t
 The main purpose of this project is to facilitate the resizing and uploading process. After login, user can choose the photos/video that they need to upload for the same post, this application will automatically resize the photos and video and post them without any cropping.
 
 # Step of Using
-1. Login your Instagram account
-2. Input your post detail (include caption, hastag and media)
-3. Preview the media (before transformation) after photos/video selected
-4. Press "Submit" for resizing the media and posting
+1. Execute main.py
+```
+python main.py
+```
+2. Login your Instagram account
+3. Input your post detail (include caption, hastag and media)
+4. Preview the media (before transformation) after photos/video selected
+5. Press "Submit" for resizing the media and posting
 
 
 # Installation
