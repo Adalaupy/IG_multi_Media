@@ -14,7 +14,7 @@ The main purpose of this project is to facilitate the resizing and uploading pro
 3. Preview the media (before transformation) after photos/video selected
 4. Press "Submit" for resizing the media and posting
 
-# Room for Improvement/Limation
+# Room for Improvement/Limitation
 - not able to handle some raw photo, e.g. heic format
 - no preview function for general post detail
 - preview function for media is not available for .cr2 format (but able to be processed)
