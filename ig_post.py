@@ -10,8 +10,8 @@ def Login_ig(UserName,PW):
     bot = Client()
 
     if UserName == "":
-        UserName = "iamutuber"
-        PW = "s00401240843130!"
+        UserName = ""
+        PW = "!"
 
     bot.login(UserName,PW)
 
