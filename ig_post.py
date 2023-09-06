@@ -9,9 +9,7 @@ def Login_ig(UserName,PW):
 
     bot = Client()
 
-    if UserName == "":
-        UserName = ""
-        PW = "!"
+
 
     bot.login(UserName,PW)
 
@@ -20,18 +18,17 @@ def Login_ig(UserName,PW):
 
 
 
-def Post_ig(Post_Detail):
+def Post_ig(Post_Detail,type):
 
 
     Media_List = Post_Detail[0]
 
     caption = Post_Detail[1]
+
+    hashtag = ""
     
     if Post_Detail[2] !='':        
         
-        Post_Detail[2]
-
-        hashtag = ""
 
         for line in Post_Detail[2].splitlines():
             
@@ -42,19 +39,34 @@ def Post_ig(Post_Detail):
             else:
                 
                 hashtag += f"\r\n#{line}"
+
+
+                
                       
     
     Post_caption = caption  + '\n' + hashtag
 
 
 
+    if len(Media_List) >1 :
 
-    bot.album_upload(
-        Media_List,
-        caption = Post_caption
-    )
+        bot.album_upload(
+            Media_List,
+            caption = Post_caption
+        )
 
+    elif type == 1:
 
-    
+        bot.photo_upload(
+            Media_List[0],
+            caption = Post_caption
+        )
+
+    else:
+
+        bot.video_upload(
+            Media_List[0],
+            caption = Post_caption
+        )        
 
 

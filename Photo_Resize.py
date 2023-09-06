@@ -143,7 +143,7 @@ def Media_Resize(Media_List):
     Temp_File = TemporaryDirectory()
     Temp_Path = Temp_File.name
 
-
+    
 
     Modified_Media_List = []
 
@@ -171,6 +171,7 @@ def Media_Resize(Media_List):
             Back_Img.save(FileName)
 
 
+
         else:
             
 
@@ -185,15 +186,18 @@ def Media_Resize(Media_List):
 
 
 
-
-
-        
         
 
-        Modified_Media_List.append(FileName)
+        Modified_Media_List.append(FileName)        
 
 
-    return Modified_Media_List
+
+
+    if len(Convert_Media_List) > 1:
+        
+        Media_Type = 2
+
+    return Modified_Media_List,Media_Type
 
 
 

@@ -82,11 +82,12 @@ def submit_form():
 
 
     # resize photo
-    Media_List = Media_Resize(uploaded_pic)
+    Media_List,media_type = Media_Resize(uploaded_pic)
     
     # ig release post
     Post_Detail = [Media_List,caption,hashtag]
-    Post_ig(Post_Detail)
+    
+    Post_ig(Post_Detail,media_type)
 
     
 
